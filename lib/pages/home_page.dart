@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       appBar: AppBar(
         title: Text("Cataloge App"),
@@ -25,4 +26,6 @@ class HomePage extends StatelessWidget {
       drawer: Drawer(),
     );
   }
+
+  bringvegetable({@required bool thalia=false, int rupees=100}) {}
 }
